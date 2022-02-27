@@ -1,4 +1,4 @@
-namespace BehaviourKit
+namespace BehaviorKit
 {
     /**
      * <summary>

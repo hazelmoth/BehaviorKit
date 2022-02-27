@@ -1,6 +1,4 @@
-﻿using BehaviourKit;
-
-namespace BehaviorKit.Nodes
+﻿namespace BehaviorKit.Nodes
 {
     /// A Node which does nothing but fail instantly.
     public class InstantFailer : Node
