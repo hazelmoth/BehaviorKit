@@ -5,7 +5,7 @@ A tiny, easy-to-use .NET behavior tree library.
 ## Nodes
 Behavior trees are built around a concept of Nodes. A Node has an update/tick function, which performs some action and then returns a status of Success, Failure, or Running.
 
-Included are several built-in control nodes, which propagate updates to their children:
+Included are several built-in control nodes, which propagate ticks to their children:
 - **Conditional**
 - **Sequencer**
 - **Repeater**
