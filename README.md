@@ -10,7 +10,7 @@ Included are several built-in control nodes, which propagate ticks to their chil
 - **Sequencer**
 - **Repeater**
 - **TimeLimit**
-- **ImpatientRepeater** (Repeater that also has a time limit)
+- **ImpatientRepeater** (A Repeater that will restart prematurely if its child takes too long.)
 
 Used together, these nodes can facilitate complex logic. There are also a few basic leaf nodes:
 - **Execute**, which just executes a given function one time.
